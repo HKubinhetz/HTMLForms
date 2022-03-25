@@ -5,6 +5,14 @@
     <title>Forms Exercise</title>
 </head>
 <body>
-    <h1>This is a HTML Website running flask!</h1>
+    <h1>Simple template running with flask!</h1>
+    <form action="/login" method="post">
+      <label for="fname">Name: </label>
+      <input type="text" id="fname" name="username">
+      <label for="lname">Password: </label>
+      <input type="text" id="lname" name="password"><br><br>
+      <input type="submit" value="Submit!">
+    </form>
+
 </body>
 </html>
